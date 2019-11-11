@@ -1,0 +1,114 @@
+h1 { 
+    color:rgb(235, 235, 235, 0.5) ;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 10px; 
+}
+
+section{ 
+    border: 2px solid #111010;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(151, 4, 11, 0.5);
+    text-align: center; 
+}
+
+p, h1 {
+    text-align: center;
+    font-family:'Indie Flower', cursive;
+}
+
+html, body {
+    background: url("../images/mack-fox-musicfox-32cf_0Mb4xg-unsplash.jpg") no-repeat center fixed;
+    margin: 0; 
+}
+
+p {
+    color: lightblue;
+    font-size: 50px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+nav ul li {
+    padding: 20px; 
+    font-size: 50px;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+}
+
+a { 
+    color:lightblue;
+}
+
+a:hover {
+    color:lightpink;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color:white;
+    width: 100%;
+}
+form {
+    margin: 10px;
+}
+
+.form-elements {
+    padding: 15px;
+}
+
+label { 
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+input {
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+
+}
+
+textarea {
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#submit-btn {
+    background-color: rgb(235, 235, 235, 0.5);
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#submit-btn:hover {
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+table {
+    border: 5px solid black;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+.news-header {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 225px;
+    margin: 0 auto;
+    margin-bottom:15px;
+}
+
+th {
+    border: 3px solid black;
+}

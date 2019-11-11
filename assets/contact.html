@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact  <3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+                <li><a href="index.html" >About me</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Contact</h1>
+        <form action="send-me-stuff" method="POST">
+            <div class="form-elements">
+                <label for="name">
+                    Name:
+                </label>
+                <input type="text" name="name" placeholder="Enter name here.(Jane Doe)" required>
+            </div>
+            <div class="form-elements">
+                <label for="Email">
+                    Email:
+                </label>
+                <input type="Email" name="Email" placeholder="Enter email here.(JaneDoe@me)" required>
+            </div>
+            <div class="form-elements">
+                <label id="message" for="Email">
+                    Message(s):
+                </label>
+                <textarea type="text" cols="30" rows="5" name="Message" placeholder="Enter message here."></textarea>
+            </div>
+            <button id="submit-btn">Transact message</button>
+
+        </form>
+    </section> 
+
+</body>
+</html>
